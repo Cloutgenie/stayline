@@ -28,6 +28,8 @@ npm run build
 npm run preview
 ```
 
+Vite `base` is `/stayline/` so a project Pages host can serve the desk at that path. Locally open `http://localhost:5173/stayline/`. `npm run build` also writes `dist/404.html` (copy of `index.html`) for SPA fallback. Do not deploy from this repo to the user github.io host.
+
 ## Routes
 
 | Route | What it is |

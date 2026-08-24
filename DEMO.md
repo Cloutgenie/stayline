@@ -7,11 +7,11 @@ npm install
 npm run dev
 ```
 
-Then visit `http://localhost:5173`.
+Then visit `http://localhost:5173/stayline/` (Vite `base` is `/stayline/`).
 
 `npm run build` must succeed. Preview the production build with `npm run preview`.
 
-A hosted preview URL is not attached to this revision. If one is published later, put it here.
+This revision does not publish a Pages deploy. A public URL, if Dave publishes a clean bundle, belongs in this file only after it is live — do not invent one.
 
 ## Click path (about four minutes)
 

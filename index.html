@@ -15,6 +15,18 @@
       rel="stylesheet"
     />
     <title>At-risk inbox for HBCU retention teams | Stayline</title>
+    <script>
+      (function () {
+        var key = "stayline-redirect";
+        var r = sessionStorage.getItem(key);
+        if (r) {
+          sessionStorage.removeItem(key);
+          if (r.indexOf("/stayline") === 0) {
+            history.replaceState(null, "", r);
+          }
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
