@@ -16,7 +16,7 @@ A hosted preview URL is not attached to this revision. If one is published later
 ## Click path (about four minutes)
 
 1. **Landing (`/`)**  
-   Read the hero: “See who needs attention this week.” Confirm the large **N** (11 on first load — Maya Patterson is already kept). Skim the three inbox points. Pricing is secondary: Campus $12k / year, System $28k / year. Click **Open success desk**.
+   Thin shell only: Stayline, the locked line “Who is about to leave, and why.”, weekly **N** (11 on first load), **Open success desk**. No pricing, no campaign copy. Click into `/app`.
 
 2. **Inbox (`/app`)**  
    You are Dr. Camille Rhodes, VP Student Success, Alabama A&M. The weekly banner repeats **N**. Rows show name, year/major, trigger chips, risk, owner. Sample IDs look like `SL-AAMU-1041`.  

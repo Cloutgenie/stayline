@@ -32,7 +32,7 @@ npm run preview
 
 | Route | What it is |
 | --- | --- |
-| `/` | Marketing landing. Hero, weekly N, inbox explainer, light pricing. CTA: Open success desk. |
+| `/` | Thin shell (Shells owns headlines): name, locked voice line, weekly N, button into `/app`. |
 | `/app` | At-risk inbox. Filters by trigger, owner, risk. |
 | `/app/cases` | Assigned files and follow-up counts. |
 | `/app/reenrollment` | Stopped-out and incomplete registration, each with a next action. |

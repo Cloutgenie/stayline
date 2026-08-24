@@ -10,8 +10,7 @@ export function WeeklyBanner() {
       <div className="banner-n">
         <b>{attentionCount}</b>
         <p>
-          {noun} attention this week. Who is about to leave, and why — not a
-          course list.
+          {noun} attention this week. Who is about to leave, and why.
         </p>
       </div>
       <aside>
