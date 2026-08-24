@@ -10,10 +10,15 @@ export function Mark({ to = "/", size = "md" }: Props) {
   const inner = (
     <>
       <span className="mark-word">Stayline</span>
-      <span className="mark-stroke" aria-hidden="true">
-        <i />
-        <b />
-      </span>
+      <svg
+        className="mark-stroke"
+        viewBox="0 0 100 10"
+        preserveAspectRatio="none"
+        aria-hidden="true"
+      >
+        <rect x="0" y="4" width="92" height="2" fill="#1A1714" />
+        <rect x="92" y="1" width="2.4" height="8" fill="#B85C38" />
+      </svg>
     </>
   );
 

@@ -94,27 +94,8 @@ p {
 
 .mark-stroke {
   display: block;
-  width: 100%;
+  width: calc(100% + 12px);
   height: 8px;
-  position: relative;
-}
-
-.mark-stroke i {
-  position: absolute;
-  left: 0;
-  right: 8px;
-  top: 3px;
-  height: 2px;
-  background: var(--ink);
-}
-
-.mark-stroke b {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 2px;
-  height: 8px;
-  background: var(--clay);
 }
 
 .mark-sm .mark-word {
