@@ -1,6 +1,7 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import { StoreProvider } from "./state/store";
 import { Landing } from "./pages/Landing";
+import { Retention } from "./pages/Retention";
 import { AppShell } from "./pages/AppShell";
 import { Inbox } from "./pages/Inbox";
 import { Cases } from "./pages/Cases";
@@ -13,6 +14,7 @@ export function App() {
     <StoreProvider>
       <Routes>
         <Route path="/" element={<Landing />} />
+        <Route path="/retention" element={<Retention />} />
         <Route path="/app" element={<AppShell />}>
           <Route index element={<Inbox />} />
           <Route path="cases" element={<Cases />} />

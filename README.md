@@ -1,10 +1,10 @@
 # Stayline
 
-Stayline is an at-risk inbox for HBCU student-success desks. It answers one question: **who is about to leave, and why.**
+Stayline is its own site. **Who is about to leave, and why.**
 
-This is not a learning system, not a CRM clone, and not a student app. A VP or advisor opens a short weekly list, sees the trigger that put a student there, and does the next human thing.
+Advisor inbox for HBCU retention teams. Prototype campus: **Alabama A&M University**. Buyer mock: VP Student Success. All students are fictional and labeled **sample**. No real PII.
 
-Prototype campus: **Alabama A&M University**. Buyer mock: VP Student Success. All students are fictional and labeled **sample**. No real PII.
+Landing copy on `/` is locked by Shells (`src/copy/shells.ts`). Do not rewrite headlines.
 
 ## Brand
 
@@ -13,7 +13,7 @@ Prototype campus: **Alabama A&M University**. Buyer mock: VP Student Success. Al
 - **Paper** `#FAF6F1` — field
 - **Stay-green** `#2F6F4E` — only on students marked **kept**
 
-Mark: the Stayline wordmark plus one hold-the-line stroke (horizontal rule, clay tick). Not a heart, mortarboard, or trophy.
+Mark: Stayline wordmark plus one hold-the-line stroke. Not a heart, mortarboard, or trophy.
 
 ## Stack
 
@@ -28,11 +28,12 @@ npm run build
 npm run preview
 ```
 
-## Desk
+## Routes
 
 | Route | What it is |
 | --- | --- |
-| `/` | Thin shell (Shells owns headlines): name, locked voice line, weekly N, button into `/app`. |
+| `/` | Stayline home. Locked Shells SEO, H1, sub, ICPs, FAQs. Weekly N. Button into `/app`. |
+| `/retention` | Retention-desk explainer. Not a student login. Inbox stays at `/app`. |
 | `/app` | At-risk inbox. Filters by trigger, owner, risk. |
 | `/app/cases` | Assigned files and follow-up counts. |
 | `/app/reenrollment` | Stopped-out and incomplete registration, each with a next action. |

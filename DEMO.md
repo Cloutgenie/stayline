@@ -16,7 +16,10 @@ A hosted preview URL is not attached to this revision. If one is published later
 ## Click path (about four minutes)
 
 1. **Landing (`/`)**  
-   Thin shell only: Stayline, the locked line “Who is about to leave, and why.”, weekly **N** (11 on first load), **Open success desk**. No pricing, no campaign copy. Click into `/app`.
+   Stayline only — no second product. Locked H1: “Who is about to leave, and why.” Sub, AEO line, ICPs, and FAQs are verbatim from Shells. Weekly **N** (11 on first load). Click **Retention desk** then return, or **Open success desk**.
+
+1b. **Retention (`/retention`)**  
+   Short staff-desk explainer. Not a student login. Inbox is not here. **Open success desk** goes to `/app`.
 
 2. **Inbox (`/app`)**  
    You are Dr. Camille Rhodes, VP Student Success, Alabama A&M. The weekly banner repeats **N**. Rows show name, year/major, trigger chips, risk, owner. Sample IDs look like `SL-AAMU-1041`.  

@@ -1,5 +1,6 @@
 import { NavLink, Outlet } from "react-router-dom";
 import { Mark } from "../components/Mark";
+import { PageMeta } from "../components/PageMeta";
 import { WeeklyBanner } from "../components/WeeklyBanner";
 import { StudentDrawer } from "../components/StudentDrawer";
 import { CAMPUS, SESSION_USER } from "../data/catalog";
@@ -11,6 +12,10 @@ export function AppShell() {
 
   return (
     <div className="shell">
+      <PageMeta
+        title={`${CAMPUS.short} success desk | Stayline`}
+        description="Who is about to leave, and why."
+      />
       <aside className="rail">
         <Mark to="/app" size="sm" />
         <div className="rail-campus">

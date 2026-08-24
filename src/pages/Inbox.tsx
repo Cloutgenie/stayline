@@ -16,7 +16,7 @@ export function Inbox() {
           <p>
             Students flagged this week by a visible trigger. Click a row for the
             why-flagged note, outreach drafts, owner, follow-ups, and a resource
-            match. This is not a gradebook.
+            match.
           </p>
         </div>
       </div>
